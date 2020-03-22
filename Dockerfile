@@ -1,2 +1,2 @@
-FROM elasticsearch:7.6.0
+FROM elasticsearch:7.6.1
 RUN bin/elasticsearch-plugin install --batch ingest-attachment
